@@ -1,5 +1,6 @@
 System.config({
   "baseURL": "/",
+  "transpiler": "traceur",
   "traceurOptions": {
     "annotations": true,
     "memberVariables": true,
