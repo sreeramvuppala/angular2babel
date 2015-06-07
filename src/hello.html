@@ -1,5 +1,10 @@
 <style>@import "hello.css";</style>
 
 <p *ng-if="name">Hello, {{name}}!</p>
-<!-- <img *ng-if="img" [src]="img"> -->
-<p *ng-if="img">{{img}}</p>
+
+
+<ul>
+   <li *for="#todo of todos">
+     {{ todo }}
+   </li>
+</ul>

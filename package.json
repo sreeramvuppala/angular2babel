@@ -9,6 +9,7 @@
     "directories": {},
     "dependencies": {
       "angular2": "npm:angular2@^2.0.0-alpha.25",
+      "foundation": "github:zurb/bower-foundation@^5.5.2",
       "node-fetch": "npm:node-fetch@^1.2.1",
       "reflect-metadata": "npm:reflect-metadata@^0.1.0",
       "zone.js": "npm:zone.js@^0.5.0"
