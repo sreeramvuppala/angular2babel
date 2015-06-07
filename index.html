@@ -1,0 +1,14 @@
+<!doctype html>
+
+<body>
+<my-app></my-app>
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+<script>
+    System.import('reflect-metadata')
+      .then(function(){System.import('zone.js')})
+      .then(function(){System.import('src/app')});
+</script>
+
+</body>
+
